@@ -1,0 +1,7 @@
+selenium
+pydub
+SpeechRecognition
+urllib3
+platform
+zipfile
+tarfile

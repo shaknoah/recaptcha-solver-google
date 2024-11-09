@@ -1,0 +1,11 @@
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+recaptcha_solver_google/__init__.py
+recaptcha_solver_google/solver.py
+recaptcha_solver_google.egg-info/PKG-INFO
+recaptcha_solver_google.egg-info/SOURCES.txt
+recaptcha_solver_google.egg-info/dependency_links.txt
+recaptcha_solver_google.egg-info/requires.txt
+recaptcha_solver_google.egg-info/top_level.txt

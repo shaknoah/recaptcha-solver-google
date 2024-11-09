@@ -1,0 +1,54 @@
+Metadata-Version: 2.1
+Name: recaptcha_solver_google
+Version: 0.0.1
+Summary: A package to solve Google reCAPTCHA using Selenium.
+Home-page: https://github.com/yourusername/recaptcha_solver_google
+Author: Mohd Shakir
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: selenium
+Requires-Dist: pydub
+Requires-Dist: SpeechRecognition
+Requires-Dist: urllib3
+Requires-Dist: platform
+Requires-Dist: zipfile
+Requires-Dist: tarfile
+
+# Recaptcha Solver
+
+A Python package to automatically solve Google reCAPTCHA using Selenium.
+
+## Features
+
+- Automatically detects and solves Google reCAPTCHA challenges.
+- Uses Selenium for browser automation.
+- Compatible with Windows, macOS, and Linux.
+
+## Requirements
+
+- Python 3.6 or higher
+- Chrome WebDriver (ensure it matches your Chrome browser version)
+- FFmpeg (auto-downloaded if not available)
+
+## Installation
+
+```bash
+pip install recaptcha_solver_google
+```
+
+## Code Usage
+
+```bash
+from recaptcha_solver_google.solver import solve_captcha_for_google_recaptcha
+from selenium import webdriver
+driver = webdriver.Chrome()
+driver.get("https://www.google.com/recaptcha/api2/demo")
+
+# Solve the CAPTCHA
+solve_captcha_for_google_recaptcha(driver)
+
+# Close the WebDriver
+driver.quit()
+```

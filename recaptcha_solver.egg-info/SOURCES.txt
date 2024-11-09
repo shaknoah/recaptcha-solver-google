@@ -1,0 +1,10 @@
+MANIFEST.in
+requirements.txt
+setup.py
+recaptcha_solver/__init__.py
+recaptcha_solver/solver.py
+recaptcha_solver.egg-info/PKG-INFO
+recaptcha_solver.egg-info/SOURCES.txt
+recaptcha_solver.egg-info/dependency_links.txt
+recaptcha_solver.egg-info/requires.txt
+recaptcha_solver.egg-info/top_level.txt
